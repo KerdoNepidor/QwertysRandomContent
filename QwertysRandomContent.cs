@@ -173,7 +173,7 @@ namespace QwertysRandomContent
 
 			text = CreateTranslation("DinoEventStart");
 			text.SetDefault("The Dino Militia is coming!");
-            text.AddTranslation(GameCulture.Russian, "Ополчение динозавров идет!");
+            text.AddTranslation(GameCulture.Russian, "Дино армия наступает!");
             text.AddTranslation(GameCulture.Chinese, "恐龙自卫军即将抵达!");
             AddTranslation(text);
 
@@ -197,7 +197,7 @@ namespace QwertysRandomContent
 
             text = CreateTranslation("RhuthiniumGenerates");
             text.SetDefault("Rhuthimis has blessed your world with Rhuthinium!");
-            text.AddTranslation(GameCulture.Russian, "Ваш мир был благославлён Рутиниумом ");
+            text.AddTranslation(GameCulture.Russian, "Ваш мир был благославлён Рутиниумом! ");
             text.AddTranslation(GameCulture.Chinese, "鲁锡金神祝福了你的世界，获得鲁锡金矿");
             AddTranslation(text);
 
@@ -239,7 +239,7 @@ namespace QwertysRandomContent
 
             text = CreateTranslation("BindKey");
             text.SetDefault("Please go to conrols and bind the 'Yet another special ability key'");
-            text.AddTranslation(GameCulture.Russian, "... Так тому и быть");
+            text.AddTranslation(GameCulture.Russian, "Пожалуйста, перейдите в управление и привяжите 'Yet another special ability key'");");
             text.AddTranslation(GameCulture.Chinese, "请去控制界面设定“另一个特殊能力键”");
             AddTranslation(text);
 
@@ -248,25 +248,25 @@ namespace QwertysRandomContent
             #region set Bonus Translations
             text = CreateTranslation("ClaySet");
             text.SetDefault("Be like a clay statue and... \n Increased morph damage and morph defense when not moving");
-            text.AddTranslation(GameCulture.Russian, "\n Увеличение урона оборотня и защита оборотня когда не двигаешься");
+            text.AddTranslation(GameCulture.Russian, "Будь как глиняная статуя...\n Увеличение урона оборотня и защита оборотня когда не двигаешься");
             text.AddTranslation(GameCulture.Chinese, "像一个泥雕一样\n不移动时增加啊化形伤害和化形防御");
             AddTranslation(text);
 
             text = CreateTranslation("DuelistSet");
-            text.SetDefault("Morph attacks against a max combo enemy always crit");    //!!(I can't translate it yet.)!!
-            text.AddTranslation(GameCulture.Russian, "");
+            text.SetDefault("Morph attacks against a max combo enemy always crit");   
+            text.AddTranslation(GameCulture.Russian, "Атаки оборотня против максимального комбо врага всегда критует");
             text.AddTranslation(GameCulture.Chinese, "化形对受到连续近战攻击的敌人必定暴击");
             AddTranslation(text);
 
             text = CreateTranslation("GlassSet");
             text.SetDefault("Ranged attacks Inflict 'Arcanely tuned' \nMagic attacks chase enemies inflicted with 'Arcanely tuned'");
-            text.AddTranslation(GameCulture.Russian, "Тайно настроенные \nМагические атаки преследуют врагов, нанесенных 'Тайно настроенными'");
+            text.AddTranslation(GameCulture.Russian, "Дальние атаки накладывают 'Волшебный резонанс' \nМагические атаки преследуют врагов, с помощью 'Волшебного резонанса'");
             text.AddTranslation(GameCulture.Chinese, "远程攻击造成“调和奥秘”\n魔法攻击对敌人造成“调和奥秘”");
             AddTranslation(text);
 
             text = CreateTranslation("LuneCrestSet");
             text.SetDefault("Shoot the moon!" + "\nDouble right click summon a moon" + "\nRanged attacks shot through the moon will be boosted");
-            text.AddTranslation(GameCulture.Russian, "Двойной щелчок правой кнопкой мыши вызывает луну "+" \nДальние атаки, прошедшие сквозь луну, будут усилены");
+            text.AddTranslation(GameCulture.Russian, "Стрельни в луну!" + "\nДвойной щелчок правой кнопкой мыши вызывает луну "+" \nДальние атаки, прошедшие сквозь луну, будут усилены");
             text.AddTranslation(GameCulture.Chinese, "射击月亮!\n双击右键召唤一个月亮\n穿过月亮的远程射击会被加速");
             AddTranslation(text);
 
@@ -396,12 +396,14 @@ namespace QwertysRandomContent
 
             text = CreateTranslation("his");
             text.SetDefault("his");
-            text.AddTranslation(GameCulture.Chinese, "他的");
+            text.AddTranslation(GameCulture.Russian, "Его");
+	    text.AddTranslation(GameCulture.Chinese, "他的");
             AddTranslation(text);
 
             text = CreateTranslation("her");
             text.SetDefault("her");
-            text.AddTranslation(GameCulture.Chinese, "她的");
+            text.AddTranslation(GameCulture.Russian, "Её");
+	    text.AddTranslation(GameCulture.Chinese, "她的");
             AddTranslation(text);
 
             //endplayermale
@@ -409,141 +411,168 @@ namespace QwertysRandomContent
             //BloodyMedalion
             text = CreateTranslation("BloodyMedalionInfo1");
             text.SetDefault(" madly drained ");
-            text.AddTranslation(GameCulture.Chinese, "疯狂的消耗");
+            text.AddTranslation(GameCulture.Russian, "безумно истощенный");
+	    text.AddTranslation(GameCulture.Chinese, "疯狂的消耗");
             AddTranslation(text);
 
             text = CreateTranslation("BloodyMedalionInfo2");
             text.SetDefault(" lifeforce!");
-            text.AddTranslation(GameCulture.Chinese, "生命力!");
+            text.AddTranslation(GameCulture.Russian, ":Жизненная сила!");
+	    text.AddTranslation(GameCulture.Chinese, "生命力!");
             AddTranslation(text);
 
             text = CreateTranslation("BloodyMedalionInfo3");
             text.SetDefault("Uses ");
-            text.AddTranslation(GameCulture.Chinese, "消耗");
+            text.AddTranslation(GameCulture.Russian, ":Использование");
+	    text.AddTranslation(GameCulture.Chinese, "消耗");
             AddTranslation(text);
 
             text = CreateTranslation("BloodyMedalionInfo4");
             text.SetDefault(" life!");
-            text.AddTranslation(GameCulture.Chinese, "生命!");
+            text.AddTranslation(GameCulture.Russian, ":Жизнь!");
+	    text.AddTranslation(GameCulture.Chinese, "生命!");
             AddTranslation(text);
             //EndBloodyMedalion
 
             //PrefixInfo
             text = CreateTranslation("Perfixdamage");
             text.SetDefault("% damage");
-            text.AddTranslation(GameCulture.Chinese, "%伤害");
+            text.AddTranslation(GameCulture.Russian, ":% урон");
+	    text.AddTranslation(GameCulture.Chinese, "%伤害");
             AddTranslation(text);
 
             text = CreateTranslation("Perfixcriticalstrikechance");
             text.SetDefault("% critical strike chance");
-            text.AddTranslation(GameCulture.Chinese, "%暴击率");
+            text.AddTranslation(GameCulture.Russian, ":% Шанс критического удара");
+	    text.AddTranslation(GameCulture.Chinese, "%暴击率");
             AddTranslation(text);
 
             text = CreateTranslation("Perfixmovementspeed");
             text.SetDefault("% movement speed");
-            text.AddTranslation(GameCulture.Chinese, "%移动速度");
+            text.AddTranslation(GameCulture.Russian, ":% Скорость передвижения");
+	    text.AddTranslation(GameCulture.Chinese, "%移动速度");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixmeleeSpeed");
             text.SetDefault("% melee speed");
-            text.AddTranslation(GameCulture.Chinese, "%近战速度");
+            text.AddTranslation(GameCulture.Russian, ":% Скорость ближнего боя");
+	    text.AddTranslation(GameCulture.Chinese, "%近战速度");
             AddTranslation(text);
 
             text = CreateTranslation("Perfixdefense");
             text.SetDefault(" defense");
-            text.AddTranslation(GameCulture.Chinese, "防御");
+            text.AddTranslation(GameCulture.Russian, ":Защита");
+	    text.AddTranslation(GameCulture.Chinese, "防御");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixmanaReduction");
             text.SetDefault("% reduced mana usage");
-            text.AddTranslation(GameCulture.Chinese, "%减少魔力消耗");
+            text.AddTranslation(GameCulture.Russian, ":% Уменьшение затрат маны");
+	    text.AddTranslation(GameCulture.Chinese, "%减少魔力消耗");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixammoReduction");
             text.SetDefault("% reduced ammo usage");
-            text.AddTranslation(GameCulture.Chinese, "%减少弹药消耗");
+            text.AddTranslation(GameCulture.Russian, ":% Уменьшение затрат патронов");
+	    text.AddTranslation(GameCulture.Chinese, "%减少弹药消耗");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixthrowVel");
             text.SetDefault("% throwing velocity");
-            text.AddTranslation(GameCulture.Chinese, "%投掷速度");
+            text.AddTranslation(GameCulture.Russian, ":% Скорость броска");
+	    text.AddTranslation(GameCulture.Chinese, "%投掷速度");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixrangedVel");
             text.SetDefault("% ranged velocity");
-            text.AddTranslation(GameCulture.Chinese, "%远程攻击速度");
+            text.AddTranslation(GameCulture.Russian, ":% Скорость дальнего боя");
+	    text.AddTranslation(GameCulture.Chinese, "%远程攻击速度");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixdashPower");
             text.SetDefault(" dash power");
-            text.AddTranslation(GameCulture.Chinese, "冲刺力度");
+            text.AddTranslation(GameCulture.Russian, ":% Сила рывка");
+	    text.AddTranslation(GameCulture.Chinese, "冲刺力度");
             AddTranslation(text);
 
             text = CreateTranslation("Perfixrecovery");
             text.SetDefault(" recovery");
-            text.AddTranslation(GameCulture.Chinese, "生命回复");
+            text.AddTranslation(GameCulture.Russian, ": Регенерация");
+	    text.AddTranslation(GameCulture.Chinese, "生命回复");
             AddTranslation(text);
 
             text = CreateTranslation("PerfixdodgeChance");
             text.SetDefault("% dodge chance");
-            text.AddTranslation(GameCulture.Chinese, "%闪避几率");
+            text.AddTranslation(GameCulture.Russian, ":% Шанс уклонения");
+	    text.AddTranslation(GameCulture.Chinese, "%闪避几率");
             AddTranslation(text);
             //EndPrefixInfo
 
             //ShapeShifter
             text = CreateTranslation("morph");
             text.SetDefault(" morph ");
-            text.AddTranslation(GameCulture.Chinese, "化形");
+            text.AddTranslation(GameCulture.Russian, ":Превращение");
+	    text.AddTranslation(GameCulture.Chinese, "化形");
             AddTranslation(text);
 
             text = CreateTranslation("morphDefense");
             text.SetDefault(" defense when morphed");
-            text.AddTranslation(GameCulture.Chinese, "防御处于化形时");
+            text.AddTranslation(GameCulture.Russian, ":% Защита в другом облике");
+	    text.AddTranslation(GameCulture.Chinese, "防御处于化形时");
             AddTranslation(text);
 
             text = CreateTranslation("MorphTypeStable");
             text.SetDefault("Morph Type: Stable");
-            text.AddTranslation(GameCulture.Chinese, "化形类：稳固");
+            text.AddTranslation(GameCulture.Russian, ":% Тип превращения:Контролируемый");
+	    text.AddTranslation(GameCulture.Chinese, "化形类：稳固");
             AddTranslation(text);
 
             text = CreateTranslation("MorphTypeQuick");
             text.SetDefault("Morph Type: Quick");
-            text.AddTranslation(GameCulture.Chinese, "化形类：快速");
+            text.AddTranslation(GameCulture.Russian, ":Тип превращения:Быстрый");
+	    text.AddTranslation(GameCulture.Chinese, "化形类：快速");
             AddTranslation(text);
 
             text = CreateTranslation("MorphTypeInvulnerable");
             text.SetDefault("Invulnerable when morphed");
-            text.AddTranslation(GameCulture.Chinese, "出于化形时无敌");
+            text.AddTranslation(GameCulture.Russian, ":Неуязвимость при превращении");
+	    text.AddTranslation(GameCulture.Chinese, "出于化形时无敌");
             AddTranslation(text);
 
             text = CreateTranslation("Morphcooldown");
             text.SetDefault(" second cooldown");
-            text.AddTranslation(GameCulture.Chinese, "秒冷却");
+            text.AddTranslation(GameCulture.Russian, ":Второе время восстановления");
+	    text.AddTranslation(GameCulture.Chinese, "秒冷却");
             AddTranslation(text);
 
             text = CreateTranslation("prefixMorphDamage");
             text.SetDefault("% morph damage");
-            text.AddTranslation(GameCulture.Chinese, "%化形伤害");
+            text.AddTranslation(GameCulture.Russian, ":%Урон оборотня");
+	    text.AddTranslation(GameCulture.Chinese, "%化形伤害");
             AddTranslation(text);
 
             text = CreateTranslation("prefixMorphDef");
             text.SetDefault(" defense when morphed");
-            text.AddTranslation(GameCulture.Chinese, "防御处于化形时");
+            text.AddTranslation(GameCulture.Russian, ":Защита в другом облике");
+	    text.AddTranslation(GameCulture.Chinese, "防御处于化形时");
             AddTranslation(text);
 
             text = CreateTranslation("prefixMorphCrit");
             text.SetDefault("% morph critical strike chance");
-            text.AddTranslation(GameCulture.Chinese, "%化形暴击率");
+            text.AddTranslation(GameCulture.Russian, ":% Шанс крит удара оборотня");
+	    text.AddTranslation(GameCulture.Chinese, "%化形暴击率");
             AddTranslation(text);
 
             text = CreateTranslation("PrefixorphCooldownModifierLonger");
             text.SetDefault("% longer cooldown");
-            text.AddTranslation(GameCulture.Chinese, "%延长冷却时间");
+            text.AddTranslation(GameCulture.Russian, ":% Долгая передышка");
+	    text.AddTranslation(GameCulture.Chinese, "%延长冷却时间");
             AddTranslation(text);
 
             text = CreateTranslation("PrefixorphCooldownModifierShorter");
             text.SetDefault("% shorter cooldown");
-            text.AddTranslation(GameCulture.Chinese, "%闪避几率");
+            text.AddTranslation(GameCulture.Russian, ":% Короткая передышка");
+	    text.AddTranslation(GameCulture.Chinese, "%闪避几率");
             AddTranslation(text);
             
             //EndShapeShifter
@@ -551,12 +580,14 @@ namespace QwertysRandomContent
             //DinoMilitia
             text = CreateTranslation("DinoMilitia");
             text.SetDefault("Dino Militia");
-            text.AddTranslation(GameCulture.Chinese, "恐龙自卫军");
+            text.AddTranslation(GameCulture.Russian, ":Дино армия");
+	    text.AddTranslation(GameCulture.Chinese, "恐龙自卫军");
             AddTranslation(text);
 
             text = CreateTranslation("DinoMilitiaCleared");
             text.SetDefault("Cleared ");
-            text.AddTranslation(GameCulture.Chinese, "已清理 ");
+            text.AddTranslation(GameCulture.Russian, ":Пройдено");
+	    text.AddTranslation(GameCulture.Chinese, "已清理 ");
             AddTranslation(text);
             //EndDinoMilitia
 
